@@ -38,8 +38,10 @@
       background: white;
       border-radius: 1.5rem;
       justify-content: space-between;
-      height: 80%;
-      padding-bottom: 2rem;
+      box-shadow: 0.2rem 0.5rem 1.5rem rgba(51, 51, 51, 0.5);
+    }
+    section >*{
+      margin-bottom: 1rem;
     }
 
     img {
@@ -53,7 +55,8 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
-      background: hsl(225, 100%, 98%)
+      background: hsl(225, 100%, 98%);
+      border-radius: 1rem;
     }
 
     .plan,
