@@ -1,6 +1,6 @@
 # Order-summary-component
 Solution challenge [Order summary component frontend mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) frontend mentor
-![img](https://user-images.githubusercontent.com/71796360/136597883-91690e3f-7e44-40a5-8b92-d2b577c046a8.PNG)
+![img](https://user-images.githubusercontent.com/71796360/136619195-5df8fc3a-a9e9-412d-8d82-a7ec35094bf7.PNG)
 
 # Link
 Solution: [Github Page](https://mtc-21.github.io/Order-summary-component/)
