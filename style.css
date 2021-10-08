@@ -1,0 +1,132 @@
+    @import url("https://fonts.google.com/specimen/Red+Hat+Display");
+
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      height: 100%;
+    }
+
+    body {
+      height: 100%;
+      background: linear-gradient(rgba(224, 232, 255, 0.5), rgba(224, 232, 255, 0.5)), url("images/pattern-background-mobile.svg") top fixed repeat-x;
+      font-family: 'Red Hat Display', sans-serif;
+    }
+
+    body,
+    section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    section {
+      margin: 1rem;
+      background: white;
+      border-radius: 1.5rem;
+      justify-content: space-between;
+      height: 80%;
+      padding-bottom: 2rem;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-top-left-radius: 1.5rem;
+      border-top-right-radius: 1.5rem;
+    }
+
+    .plan {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background: hsl(225, 100%, 98%)
+    }
+
+    .plan,
+    .btn-pay,
+    .description,
+    .cancel {
+      width: 80%;
+      padding: 1rem;
+    }
+
+    .btn-pay {
+      background: hsl(245, 75%, 52%);
+      color: white;
+      font-weight: 700;
+      border-radius: 1rem;
+      box-shadow: 0 0.2rem 0.5rem rebeccapurple;
+    }
+
+    .btn-pay,
+    .cancel,
+    a {
+      cursor: pointer;
+    }
+
+    .cancel {
+      background: transparent;
+    }
+
+    button {
+      border: none;
+    }
+
+    h1,
+    p,
+    .plan a {
+      color: hsl(223, 47%, 23%);
+    }
+
+    .btn-pay:hover {
+      background: hsl(245deg 75% 52% / 69%);
+    }
+
+    .cancel:hover {
+      color: gray;
+    }
+
+    a:hover {
+      color: hsl(254, 28%, 59%);
+    }
+
+    .cancel,
+    h1 {
+      font-weight: 700;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.2;
+      text-align: center;
+    }
+
+    @media(min-width:375px) {
+      body {
+        background: linear-gradient(rgba(224, 232, 255, 0.5), rgba(224, 232, 255, 0.5)), url("images/pattern-background-desktop.svg") top fixed repeat-x;
+      }
+
+      section {
+        width: calc(400px - 1vw);
+      }
+    }
