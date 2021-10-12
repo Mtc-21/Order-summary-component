@@ -12,12 +12,13 @@
 
     body {
       height: 100%;
-      background: linear-gradient(rgba(224, 232, 255, 0.5), rgba(224, 232, 255, 0.5)), url("images/pattern-background-mobile.svg") top fixed repeat-x;
+      background: linear-gradient(rgba(224, 232, 255, 0.5), rgba(224, 232, 255, 0.5)),url("images/pattern-background-mobile.svg") top fixed repeat-x;
       font-family: 'Red Hat Display', sans-serif;
+    
     }
 
     body,
-    section {
+    main {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -33,14 +34,14 @@
       color: hsl(228, 45%, 44%);
     }
 
-    section {
+    main {
       margin: 1rem;
       background: white;
       border-radius: 1.5rem;
       justify-content: space-between;
       box-shadow: 0.2rem 0.5rem 1.5rem rgba(51, 51, 51, 0.5);
     }
-    section >*{
+    main >*{
       margin-bottom: 1rem;
     }
 
@@ -129,7 +130,7 @@
         background: linear-gradient(rgba(224, 232, 255, 0.5), rgba(224, 232, 255, 0.5)), url("images/pattern-background-desktop.svg") top fixed repeat-x;
       }
 
-      section {
+      main {
         width: calc(400px - 1vw);
       }
     }
